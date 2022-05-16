@@ -73,31 +73,42 @@ h1 {
 }
 
 /* Nav Bar */
-nav {
+#nav {
   justify-content: center;
   background-color: hsl(151, 69%, 26%);
+  overflow: hidden;
 }
 
-nav ul {
+#nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
 }
 
-nav a {
+#nav a {
   text-decoration: none;
   padding: 0.5rem;
   width: 100%;
 }
 
-nav a:hover {
+#nav a:hover {
   background-color: hsl(342, 64%, 33%);
   transition-duration: 0.25s;
 }
 
-nav li {
+#nav li {
   color: hsl(0, 0%, 95%);
   font-family: Koulen, cursive;
   font-size: 1.5rem;
   text-align: center;
+}
+
+.stickIt {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickIt + main {
+  padding-top: 5rem;
 }
