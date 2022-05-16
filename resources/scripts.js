@@ -1,15 +1,7 @@
 // Make the nav bar stick on top when the page is scrolled.
-
-window.onscroll = function () {
-  makeNavStick();
-};
-
 let nav = document.getElementById("nav");
 
 let sticky = nav.offsetTop;
-
-console.log(nav);
-console.log(sticky);
 
 /*
 function makeNavStick() {
@@ -25,3 +17,7 @@ const makeNavStick = () =>
   window.scrollY >= sticky
     ? nav.classList.add("stickIt")
     : nav.classList.remove("stickIt");
+
+window.onscroll = function () {
+  makeNavStick();
+};
