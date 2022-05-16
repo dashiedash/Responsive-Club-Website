@@ -6,3 +6,11 @@
   background-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 14%);
 }
+
+p {
+  font-family: 'Noto Serif', 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+}
