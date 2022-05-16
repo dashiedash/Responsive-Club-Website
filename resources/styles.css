@@ -4,6 +4,7 @@
 /* Global styles */
 * {
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -69,4 +70,34 @@ h1 {
   font-family: "Noto Sans", "Segoe UI", sans-serif;
   font-size: 2rem;
   padding: 1rem;
+}
+
+/* Nav Bar */
+nav {
+  justify-content: center;
+  background-color: hsl(151, 69%, 26%);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: hsl(342, 64%, 33%);
+  transition-duration: 0.25s;
+}
+
+nav li {
+  color: hsl(0, 0%, 95%);
+  font-family: Koulen, cursive;
+  font-size: 1.5rem;
+  text-align: center;
 }
