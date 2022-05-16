@@ -1,4 +1,5 @@
+/* Global styles */
 * {
-  background-color: #070707;
-  color: lightcyan;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 14%);
 }
