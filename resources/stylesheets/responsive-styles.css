@@ -11,7 +11,61 @@
   /* Header - End */
 
   /* Main - Start */
-  /* Featured Galelry */
+  /* Featured Gallery */
+  #featured-gallery .gallery-album {
+    grid-template-areas:
+      "L1 L1"
+      "P1 L2"
+      "P1 P2"
+      "L3 P2"
+      "L4 L4"
+      "L5 L5";
+  }
+  /* Main - End */
+}
 
+@media only screen and (max-width: 320px) {
+  /* Featured Gallery */
+  .album-image.landscape1 {
+    grid-area: unset;
+  }
+
+  .album-image.landscape2 {
+    grid-area: unset;
+  }
+
+  .album-image.landscape3 {
+    grid-area: unset;
+  }
+
+  .album-image.landscape4 {
+    grid-area: unset;
+  }
+
+  .album-image.landscape5 {
+    grid-area: unset;
+  }
+
+  .album-image.portrait1 {
+    grid-area: unset;
+  }
+
+  .album-image.portrait2 {
+    grid-area: unset;
+  }
+  #featured-gallery .gallery-album {
+    grid-template-columns: 1fr;
+    grid-template-areas: unset;
+  }
+
+  #featured-gallery .album-image {
+    min-height: 8rem;
+    max-height: 16rem;
+  }
+
+  #featured-gallery .push-top img {
+    height: auto;
+    object-position: 50% 25%;
+  }
   /* Main - End */
 }
