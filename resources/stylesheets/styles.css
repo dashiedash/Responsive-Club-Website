@@ -12,7 +12,8 @@ html {
   color: hsl(0, 0%, 14%);
 }
 
-p {
+p,
+table {
   font-family: "Noto Serif", "Georgia", serif;
 }
 
@@ -185,4 +186,35 @@ section {
 .logo-text img {
   display: none;
 }
+
+/* Events */
+#events {
+  background-color: hsl(43, 59%, 52%);
+}
+
+table,
+td,
+th {
+  border: 0.25rem solid hsl(43, 59%, 75%);
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+th {
+  background-color: hsl(43, 59%, 65%);
+}
+
+td {
+  background-color: hsl(43, 59%, 70%);
+}
+
+th,
+td {
+  padding: 1rem;
+}
+
 /* Main - End */

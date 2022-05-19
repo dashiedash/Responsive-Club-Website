@@ -7,8 +7,6 @@
   p {
     font-size: 1.25rem;
   }
-  /* Header - Start*/
-  /* Header - End */
 
   /* Main - Start */
   /* Featured Gallery */
@@ -20,6 +18,11 @@
       "L3 P2"
       "L4 L4"
       "L5 L5";
+  }
+
+  /* Events */
+  th {
+    font-size: 1.25rem;
   }
   /* Main - End */
 }
