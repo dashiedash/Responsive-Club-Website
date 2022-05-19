@@ -23,7 +23,8 @@ h3,
 h4,
 h5,
 h6,
-.logo-text p {
+.logo-text p,
+footer p {
   font-family: "Noto Sans", "Segoe UI", sans-serif;
 }
 
@@ -255,5 +256,28 @@ td {
   height: 8rem;
   margin: 0.5rem;
 }
-
 /* Main - End */
+
+/* Footer - Start */
+footer {
+  background-color: hsl(151, 69%, 26%);
+  color: hsl(0, 0%, 95%);
+  padding: 1rem;
+}
+
+.dev-tags {
+  display: flex;
+  align-items: center;
+}
+
+.dev-tags p {
+  margin-right: 1rem;
+  border-right: solid 1px;
+  padding-right: 1rem;
+}
+
+footer img {
+  height: 2rem;
+  filter: brightness(0) invert(1);
+}
+/* Footer - End */
