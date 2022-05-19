@@ -22,7 +22,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.logo-text p {
   font-family: "Noto Sans", "Segoe UI", sans-serif;
 }
 
@@ -86,7 +87,6 @@ h1 {
 
 #nav ul {
   display: flex;
-
   list-style-type: none;
   justify-content: space-evenly;
 }
@@ -183,10 +183,6 @@ section {
   object-position: center;
 }
 
-.logo-text img {
-  display: none;
-}
-
 /* Events */
 #events {
   background-color: hsl(43, 59%, 52%);
@@ -215,6 +211,49 @@ td {
 th,
 td {
   padding: 1rem;
+}
+
+/* Partners */
+.logo-gallery {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 16rem;
+  height: 16rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0.75rem 0.75rem 1rem hsla(0, 0%, 0%, 0.25);
+}
+
+.logo-text:nth-child(odd) {
+  background-color: hsl(342, 64%, 33%);
+}
+
+.logo-text:nth-child(even) {
+  background-color: hsl(151, 68%, 16%);
+}
+
+.logo-text p {
+  color: hsl(0, 0%, 95%);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.logo-text img {
+  width: auto;
+  height: 8rem;
+  margin: 0.5rem;
 }
 
 /* Main - End */
